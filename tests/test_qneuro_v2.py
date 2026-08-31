@@ -5,7 +5,7 @@ from sklearn.model_selection import GroupShuffleSplit
 
 from qneuro.data import CHANNEL_POSITIONS, source_normalize, tensor_mask
 from qneuro.model import LatentSetQuanKAN
-from qneuro.train import optimizer
+from qneuro.train import optimizer, supcon
 
 
 class QNeuroV2Tests(unittest.TestCase):
@@ -34,6 +34,9 @@ class QNeuroV2Tests(unittest.TestCase):
 
     def test_source_target_normalization(self):
         x=np.ones((3,4,2,5),dtype=np.float32); x[2]+=1000; z,stats=source_normalize(x,np.array([0,1]),np.array([4,4,4])); self.assertLess(abs(stats[0]['mean']-1),1e-6); self.assertGreater(float(z[2].mean()),100)
+
+    def test_supcon_is_finite(self):
+        z=torch.randn(6,8); y=torch.tensor([0,0,1,1,2,2]); s=torch.tensor([0,1,0,1,0,1]); self.assertTrue(torch.isfinite(supcon(z,y,s)))
 
     def test_group_split_disjoint(self):
         groups=np.repeat(np.arange(5),4); idx=np.arange(len(groups)); tr,va=next(GroupShuffleSplit(n_splits=1,test_size=.2,random_state=3).split(idx,groups=groups)); self.assertTrue(set(groups[tr]).isdisjoint(set(groups[va])))

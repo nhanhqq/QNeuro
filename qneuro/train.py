@@ -53,7 +53,7 @@ def batch_metrics(model, loader, device, positions, channels, classes):
 
 def supcon(z, y, subjects, temperature=.1):
     z=F.normalize(z,dim=1); sim=z@z.T/temperature; eye=torch.eye(len(z),device=z.device,dtype=torch.bool); valid=~eye; pos=(y[:,None]==y[None,:]) & (subjects[:,None]!=subjects[None,:]) & valid
-    logp=sim.masked_fill(eye, -torch.inf).log_softmax(1); count=pos.sum(1); return (-(logp*pos.float()).sum(1)/count.clamp_min(1)).masked_select(count>0).mean() if (count>0).any() else z.sum()*0
+    logp=sim.masked_fill(eye, -1e9).log_softmax(1); count=pos.sum(1); return (-(logp*pos.float()).sum(1)/count.clamp_min(1)).masked_select(count>0).mean() if (count>0).any() else z.sum()*0
 
 
 def train_epoch(model, loader, device, positions, channels, classes, epoch, args):
