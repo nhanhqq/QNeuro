@@ -6,7 +6,7 @@ batch="${QNEURO_V2_BATCH_SIZE:-32}"
 epochs="${QNEURO_V2_EPOCHS:-150}"
 reserve="${QNEURO_V2_RESERVE_MB:-1024}"
 estimate="${QNEURO_V2_JOB_ESTIMATE_MB:-4500}"
-max_parallel="${QNEURO_V2_MAX_PARALLEL:-0}"
+max_parallel="${QNEURO_V2_MAX_PARALLEL:-7}"
 settle="${QNEURO_V2_SETTLE_SECONDS:-15}"
 dry=0
 while (($#)); do
