@@ -26,7 +26,7 @@ done
 active() { screen -ls 2>/dev/null | awk '/\.qneuro_v2_(seed|seediv|seedv|seedvii)_P[0-9]+[[:space:]].*Detached/ {n++} END{print n+0}'; }
 live() { screen -ls 2>/dev/null | grep -q "\.qneuro_v2_${1/:/_}[[:space:]].*Detached"; }
 free_mb() { nvidia-smi --query-gpu=memory.free --format=csv,noheader,nounits 2>/dev/null | head -1 | tr -d ' '; }
-done_job() { [[ -s "$out/${1%%:*}/target_${1##*:}/best_source_val.pt" && -s "$out/${1%%:*}/target_${1##*:}/final_metrics.json" ]]; }
+done_job() { [[ -s "$out/${1%%:*}/target_${1##*:}/final_metrics.json" ]]; }
 echo "QNEURO_V2_PLAN jobs=${#jobs[@]} epochs=$epochs batch=$batch max_parallel=$max_parallel reserve_mb=$reserve estimate_mb=$estimate"
 if ((dry)); then
   for item in "${jobs[@]}"; do echo "DRY_RUN job=$item screen=qneuro_v2_${item/:/_}"; done
@@ -36,7 +36,7 @@ mkdir -p "$out"
 launch() {
   local item="$1" d t name log
   d="${item%%:*}"; t="${item##*:}"; name="qneuro_v2_${item/:/_}"; log="$out/${d}_${t}.screen.log"
-  rm -rf -- "$out/$d/target_$t"
+  mkdir -p -- "$out/$d/target_$t"
   rm -f -- "$log"
   screen -dmS "$name" bash -lc "cd '$root'; export PYTHONUNBUFFERED=1 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128; python3 -u run_target.py --dataset '$d' --target '$t' --epochs '$epochs' --batch-size '$batch' --output-dir '$out' 2>&1 | tee -a '$log'; rc=\${PIPESTATUS[0]}; echo QNEURO_V2_SCREEN_EXIT dataset=$d target=$t code=\$rc timestamp=\$(date --iso-8601=seconds) | tee -a '$log'; exit \$rc"
   echo "LAUNCHED job=$item screen=$name active=$(active) free_mb=$(free_mb)"

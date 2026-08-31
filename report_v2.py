@@ -11,8 +11,8 @@ def main():
     for d in DATASETS:
         expected={'seed':15,'seediv':15,'seedv':16,'seedvii':20}[d]; vals=[]; f1=[]; invalid=[]
         for target in range(1,expected+1):
-            r=root/d/('target_P%d'%target); m=r/'final_metrics.json'; s=r/'split.json'; n=r/'normalization.json'; b=r/'best_source_val.pt'
-            if not (m.exists() and s.exists() and n.exists() and b.exists()): continue
+            r=root/d/('target_P%d'%target); m=r/'final_metrics.json'; s=r/'split.json'; n=r/'normalization.json'; runtime=r/'runtime.json'
+            if not (m.exists() and s.exists() and n.exists() and runtime.exists()): continue
             obj=json.load(open(m)); split=json.load(open(s));
             if split.get('target') != 'P%d'%target or split.get('target') in split.get('train_subjects',[]) or split.get('target') in split.get('validation_subjects',[]): invalid.append(r); continue
             vals.append(float(obj['accuracy'])); f1.append(float(obj['macro_f1']))
