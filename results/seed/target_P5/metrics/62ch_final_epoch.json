@@ -1,0 +1,26 @@
+{
+  "cross_entropy": 0.9226478934288025,
+  "accuracy": 0.6,
+  "macro_precision": 0.40740740740740744,
+  "macro_recall": 0.6,
+  "macro_f1": 0.4805194805194805,
+  "weighted_f1": 0.4805194805194805,
+  "balanced_accuracy": 0.6,
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      0,
+      0,
+      5
+    ]
+  ]
+}
