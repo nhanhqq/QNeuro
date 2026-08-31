@@ -1,0 +1,5 @@
+.env
+results/
+resource_profiles.json
+__pycache__/
+*.pyc

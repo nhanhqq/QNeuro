@@ -1,0 +1,1 @@
+"""LatentSet-QuanKAN research implementation."""
