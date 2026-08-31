@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 root="/home/namphuongtran9196/intel_project/QNeuro"
-out="${QNEURO_V2_OUTPUT_DIR:-$root/results_v2}"
+out="${QNEURO_V2_OUTPUT_DIR:-$root/results_v2_logonly}"
 batch="${QNEURO_V2_BATCH_SIZE:-32}"
 epochs="${QNEURO_V2_EPOCHS:-150}"
 reserve="${QNEURO_V2_RESERVE_MB:-1024}"

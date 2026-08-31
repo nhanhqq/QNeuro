@@ -5,7 +5,7 @@ from pathlib import Path
 DATASETS = ('seed', 'seediv', 'seedv', 'seedvii')
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('--root',default='results_v2'); a=p.parse_args(); root=Path(a.root); total=0
+    p=argparse.ArgumentParser(); p.add_argument('--root',default='results_v2_logonly'); a=p.parse_args(); root=Path(a.root); total=0
     print('| dataset | complete | expected | accuracy mean ± std | macro-F1 mean ± std |')
     print('|---|---:|---:|---:|---:|')
     for d in DATASETS:
