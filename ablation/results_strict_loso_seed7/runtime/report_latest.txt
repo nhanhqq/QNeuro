@@ -1,0 +1,11 @@
+dataset              variant  complete_folds  expected_folds  accuracy_mean  accuracy_std  balanced_accuracy_mean  balanced_accuracy_std  macro_f1_mean  macro_f1_std  weighted_f1_mean  weighted_f1_std
+   CHSZ                 full              27              27          90.88          7.36                   80.54                  17.46          75.42         17.68             91.47             6.81
+   CHSZ     classical_latent              27              27          89.81         10.05                   79.12                  17.38          73.72         19.03             90.76             8.34
+   CHSZ      no_entanglement               1              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ          no_reupload               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ uniform_channel_pool               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ            no_bilstm               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ    linear_classifier               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ          no_spectral               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ            no_hjorth               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN
+   CHSZ      no_connectivity               0              27            NaN           NaN                     NaN                    NaN            NaN           NaN               NaN              NaN

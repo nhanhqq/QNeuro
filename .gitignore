@@ -3,3 +3,18 @@ results/
 resource_profiles.json
 __pycache__/
 *.pyc
+*.pt
+*.pth
+
+# Large datasets & archive zip files
+2014001/
+CHB-MIT/
+CHSZ/
+COG-BCI/
+FACED/
+ISRUC-S3/
+PhysioNet-MI/
+SEED/
+STEW/
+Sleep-EDF-20/
+*.zip

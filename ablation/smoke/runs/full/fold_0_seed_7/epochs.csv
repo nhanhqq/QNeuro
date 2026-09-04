@@ -1,0 +1,1 @@
+epoch,train_loss,train_accuracy,val_loss,val_accuracy,val_balanced_accuracy,val_macro_f1,learning_rate,epoch_seconds

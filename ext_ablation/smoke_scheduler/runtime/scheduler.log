@@ -1,0 +1,29 @@
+EXTAB_START seed=7 epochs=50 batch=512 max=4 workers=0 target_selected=false dry_run=1
+EXTAB_QUEUE pending=27 adopted=0 total=27
+CHSZ:500:1.0:0.5:0:full:7
+CHSZ:500:1.0:0.5:1:full:7
+CHSZ:500:1.0:0.5:2:full:7
+CHSZ:500:1.0:0.5:3:full:7
+CHSZ:500:1.0:0.5:4:full:7
+CHSZ:500:1.0:0.5:5:full:7
+CHSZ:500:1.0:0.5:6:full:7
+CHSZ:500:1.0:0.5:7:full:7
+CHSZ:500:1.0:0.5:8:full:7
+CHSZ:500:1.0:0.5:9:full:7
+CHSZ:500:1.0:0.5:10:full:7
+CHSZ:500:1.0:0.5:11:full:7
+CHSZ:500:1.0:0.5:12:full:7
+CHSZ:500:1.0:0.5:13:full:7
+CHSZ:500:1.0:0.5:14:full:7
+CHSZ:500:1.0:0.5:15:full:7
+CHSZ:500:1.0:0.5:16:full:7
+CHSZ:500:1.0:0.5:17:full:7
+CHSZ:500:1.0:0.5:18:full:7
+CHSZ:500:1.0:0.5:19:full:7
+CHSZ:500:1.0:0.5:20:full:7
+CHSZ:500:1.0:0.5:21:full:7
+CHSZ:500:1.0:0.5:22:full:7
+CHSZ:500:1.0:0.5:23:full:7
+CHSZ:500:1.0:0.5:24:full:7
+CHSZ:500:1.0:0.5:25:full:7
+CHSZ:500:1.0:0.5:26:full:7

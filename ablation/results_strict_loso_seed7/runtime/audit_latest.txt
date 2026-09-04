@@ -1,0 +1,25 @@
+{
+  "complete_configurations": 1,
+  "expected_configurations": 20,
+  "invalid": [
+    {
+      "dataset": "CHSZ",
+      "variant": "classical_latent",
+      "run": "fold_12_seed_7",
+      "error": "[Errno 2] No such file or directory: 'ablation/results_strict_loso_seed7/CHSZ/runs/classical_latent/fold_12_seed_7/run.json'"
+    },
+    {
+      "dataset": "CHSZ",
+      "variant": "classical_latent",
+      "run": "fold_11_seed_7",
+      "error": "[Errno 2] No such file or directory: 'ablation/results_strict_loso_seed7/CHSZ/runs/classical_latent/fold_11_seed_7/run.json'"
+    },
+    {
+      "dataset": "CHSZ",
+      "variant": "classical_latent",
+      "run": "fold_10_seed_7",
+      "error": "[Errno 2] No such file or directory: 'ablation/results_strict_loso_seed7/CHSZ/runs/classical_latent/fold_10_seed_7/run.json'"
+    }
+  ],
+  "complete": false
+}

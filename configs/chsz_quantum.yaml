@@ -1,0 +1,14 @@
+data: CHSZ
+sampling_rate: 500   # CHSZ raw recordings are 500/1000 Hz; this 2000-point 4-s packaged window is the 500-Hz standardized representation.
+folds: 3
+seeds: [7, 17, 27]
+epochs: 300
+batch_size: 128
+num_workers: 0
+optimizer: AdamW
+learning_rate: 0.001
+weight_decay: 0.0001
+gradient_clip: 1.0
+early_stopping_patience: 15
+lr_scheduler: {name: cosine_annealing, eta_min: 0.00001, t_max: 300}
+model: {hidden_size: 4, lstm_layers: 1, qubits: 4, quantum_depth: 2, projection_dim: 4, entanglement: ring, data_reuploading: true}

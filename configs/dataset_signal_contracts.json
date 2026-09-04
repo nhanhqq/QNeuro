@@ -1,0 +1,12 @@
+{
+  "2014001":{"sampling_rate":250,"channels":22,"samples":1001,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":4.004,"preprocessing":"MOABB MotorImagery; source 0.5-100 Hz, 50 Hz notch","evidence":"code+MOABB"},
+  "CHB-MIT":{"sampling_rate":256,"channels":23,"samples":1024,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":4.0,"preprocessing":"4-second non-overlapping seizure/background windows; no added filter","evidence":"code+shape"},
+  "CHSZ":{"sampling_rate":500,"channels":18,"samples":2000,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":4.0,"preprocessing":"copied packaged window; no metadata-side filtering recorded","evidence":"package shape; source rate standardized to 500 Hz"},
+  "COG-BCI":{"sampling_rate":500,"channels":32,"samples":1000,"frame_seconds":0.5,"hop_seconds":0.25,"duration_seconds":2.0,"preprocessing":"resampled 500 Hz, first 32 EEG channels, converted V to uV","evidence":"code"},
+  "FACED":{"sampling_rate":250,"channels":32,"samples":750,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":3.0,"preprocessing":"processed-data segments of 750 points","evidence":"processed package shape; raw acquisition may be 250 or 1000 Hz"},
+  "ISRUC-S3":{"sampling_rate":200,"channels":6,"samples":6000,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":30.0,"preprocessing":"0.3-35 Hz bandpass and 50 Hz notch","evidence":"code"},
+  "PhysioNet-MI":{"sampling_rate":160,"channels":64,"samples":640,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":4.0,"preprocessing":"resampled 160 Hz and filtered 7-30 Hz","evidence":"code"},
+  "SEED":{"sampling_rate":200,"channels":62,"samples":800,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":4.0,"preprocessing":"processed trial segments of 800 points","evidence":"code+SEED standard rate"},
+  "STEW":{"sampling_rate":128,"channels":14,"samples":256,"frame_seconds":0.5,"hop_seconds":0.25,"duration_seconds":2.0,"preprocessing":"2-second raw segments","evidence":"code"},
+  "Sleep-EDF-20":{"sampling_rate":100,"channels":2,"samples":3000,"frame_seconds":1.0,"hop_seconds":0.5,"duration_seconds":30.0,"preprocessing":"Fpz-Cz/Pz-Oz, resampled 100 Hz, 30-second epochs","evidence":"code"}
+}

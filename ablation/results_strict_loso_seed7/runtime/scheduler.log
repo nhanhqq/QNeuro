@@ -1,0 +1,1180 @@
+AB_STRICT_START seed=7 epochs=50 batch=512 max=4 workers=0 target_selected=false
+AB_LAUNCH screen=ab_2014001_full_f0_s7 data=2014001 variant=full fold=0
+AB_LAUNCH screen=ab_2014001_full_f1_s7 data=2014001 variant=full fold=1
+AB_LAUNCH screen=ab_2014001_full_f2_s7 data=2014001 variant=full fold=2
+AB_LAUNCH screen=ab_2014001_full_f3_s7 data=2014001 variant=full fold=3
+AB_EXIT screen=ab_2014001_full_f0_s7 code=0
+AB_EXIT screen=ab_2014001_full_f3_s7 code=0
+AB_EXIT screen=ab_2014001_full_f1_s7 code=0
+AB_EXIT screen=ab_2014001_full_f2_s7 code=0
+AB_LAUNCH screen=ab_2014001_full_f4_s7 data=2014001 variant=full fold=4
+AB_LAUNCH screen=ab_2014001_full_f5_s7 data=2014001 variant=full fold=5
+AB_LAUNCH screen=ab_2014001_full_f6_s7 data=2014001 variant=full fold=6
+AB_LAUNCH screen=ab_2014001_full_f7_s7 data=2014001 variant=full fold=7
+AB_EXIT screen=ab_2014001_full_f6_s7 code=0
+AB_EXIT screen=ab_2014001_full_f5_s7 code=0
+AB_EXIT screen=ab_2014001_full_f4_s7 code=0
+AB_EXIT screen=ab_2014001_full_f7_s7 code=0
+AB_LAUNCH screen=ab_2014001_full_f8_s7 data=2014001 variant=full fold=8
+AB_LAUNCH screen=ab_2014001_classical_latent_f0_s7 data=2014001 variant=classical_latent fold=0
+AB_LAUNCH screen=ab_2014001_classical_latent_f1_s7 data=2014001 variant=classical_latent fold=1
+AB_LAUNCH screen=ab_2014001_classical_latent_f2_s7 data=2014001 variant=classical_latent fold=2
+AB_EXIT screen=ab_2014001_classical_latent_f1_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f0_s7 code=0
+AB_EXIT screen=ab_2014001_full_f8_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f2_s7 code=0
+AB_LAUNCH screen=ab_2014001_classical_latent_f3_s7 data=2014001 variant=classical_latent fold=3
+AB_LAUNCH screen=ab_2014001_classical_latent_f4_s7 data=2014001 variant=classical_latent fold=4
+AB_LAUNCH screen=ab_2014001_classical_latent_f5_s7 data=2014001 variant=classical_latent fold=5
+AB_LAUNCH screen=ab_2014001_classical_latent_f6_s7 data=2014001 variant=classical_latent fold=6
+AB_EXIT screen=ab_2014001_classical_latent_f4_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f5_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f3_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f6_s7 code=0
+AB_LAUNCH screen=ab_2014001_classical_latent_f7_s7 data=2014001 variant=classical_latent fold=7
+AB_LAUNCH screen=ab_2014001_classical_latent_f8_s7 data=2014001 variant=classical_latent fold=8
+AB_LAUNCH screen=ab_2014001_no_entanglement_f0_s7 data=2014001 variant=no_entanglement fold=0
+AB_LAUNCH screen=ab_2014001_no_entanglement_f1_s7 data=2014001 variant=no_entanglement fold=1
+AB_EXIT screen=ab_2014001_no_entanglement_f0_s7 code=0
+AB_EXIT screen=ab_2014001_no_entanglement_f1_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f7_s7 code=0
+AB_EXIT screen=ab_2014001_classical_latent_f8_s7 code=0
+AB_LAUNCH screen=ab_2014001_no_entanglement_f2_s7 data=2014001 variant=no_entanglement fold=2
+AB_LAUNCH screen=ab_2014001_no_entanglement_f3_s7 data=2014001 variant=no_entanglement fold=3
+AB_LAUNCH screen=ab_2014001_no_entanglement_f4_s7 data=2014001 variant=no_entanglement fold=4
+AB_LAUNCH screen=ab_2014001_no_entanglement_f5_s7 data=2014001 variant=no_entanglement fold=5
+AB_EXIT screen=ab_2014001_no_entanglement_f4_s7 code=0
+AB_EXIT screen=ab_2014001_no_entanglement_f3_s7 code=0
+AB_EXIT screen=ab_2014001_no_entanglement_f2_s7 code=0
+AB_EXIT screen=ab_2014001_no_entanglement_f5_s7 code=0
+AB_LAUNCH screen=ab_2014001_no_entanglement_f6_s7 data=2014001 variant=no_entanglement fold=6
+AB_LAUNCH screen=ab_2014001_no_entanglement_f7_s7 data=2014001 variant=no_entanglement fold=7
+AB_LAUNCH screen=ab_2014001_no_entanglement_f8_s7 data=2014001 variant=no_entanglement fold=8
+AB_LAUNCH screen=ab_2014001_no_reupload_f0_s7 data=2014001 variant=no_reupload fold=0
+AB_STRICT_START seed=7 epochs=50 batch=512 max=4 workers=0 target_selected=false
+AB_LAUNCH screen=ab_CHSZ_full_f0_s7 data=CHSZ variant=full fold=0
+AB_LAUNCH screen=ab_CHSZ_full_f1_s7 data=CHSZ variant=full fold=1
+AB_LAUNCH screen=ab_CHSZ_full_f2_s7 data=CHSZ variant=full fold=2
+AB_LAUNCH screen=ab_CHSZ_full_f3_s7 data=CHSZ variant=full fold=3
+AB_EXIT screen=ab_CHSZ_full_f0_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f4_s7 data=CHSZ variant=full fold=4
+AB_EXIT screen=ab_CHSZ_full_f2_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f5_s7 data=CHSZ variant=full fold=5
+AB_EXIT screen=ab_CHSZ_full_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f3_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f6_s7 data=CHSZ variant=full fold=6
+AB_LAUNCH screen=ab_CHSZ_full_f7_s7 data=CHSZ variant=full fold=7
+AB_LAUNCH screen=ab_CHSZ_full_f8_s7 data=CHSZ variant=full fold=8
+AB_EXIT screen=ab_CHSZ_full_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f6_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f9_s7 data=CHSZ variant=full fold=9
+AB_LAUNCH screen=ab_CHSZ_full_f10_s7 data=CHSZ variant=full fold=10
+AB_EXIT screen=ab_CHSZ_full_f8_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f7_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f10_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f11_s7 data=CHSZ variant=full fold=11
+AB_LAUNCH screen=ab_CHSZ_full_f12_s7 data=CHSZ variant=full fold=12
+AB_LAUNCH screen=ab_CHSZ_full_f13_s7 data=CHSZ variant=full fold=13
+AB_LAUNCH screen=ab_CHSZ_full_f14_s7 data=CHSZ variant=full fold=14
+AB_EXIT screen=ab_CHSZ_full_f12_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f15_s7 data=CHSZ variant=full fold=15
+AB_EXIT screen=ab_CHSZ_full_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f11_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f16_s7 data=CHSZ variant=full fold=16
+AB_LAUNCH screen=ab_CHSZ_full_f17_s7 data=CHSZ variant=full fold=17
+AB_LAUNCH screen=ab_CHSZ_full_f18_s7 data=CHSZ variant=full fold=18
+AB_EXIT screen=ab_CHSZ_full_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f19_s7 data=CHSZ variant=full fold=19
+AB_EXIT screen=ab_CHSZ_full_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f16_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f20_s7 data=CHSZ variant=full fold=20
+AB_LAUNCH screen=ab_CHSZ_full_f21_s7 data=CHSZ variant=full fold=21
+AB_EXIT screen=ab_CHSZ_full_f20_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f18_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f19_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f22_s7 data=CHSZ variant=full fold=22
+AB_LAUNCH screen=ab_CHSZ_full_f23_s7 data=CHSZ variant=full fold=23
+AB_LAUNCH screen=ab_CHSZ_full_f24_s7 data=CHSZ variant=full fold=24
+AB_EXIT screen=ab_CHSZ_full_f21_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_full_f25_s7 data=CHSZ variant=full fold=25
+AB_LAUNCH screen=ab_CHSZ_full_f26_s7 data=CHSZ variant=full fold=26
+AB_EXIT screen=ab_CHSZ_full_f23_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f0_s7 data=CHSZ variant=classical_latent fold=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f0_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f26_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_full_f24_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f1_s7 data=CHSZ variant=classical_latent fold=1
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f2_s7 data=CHSZ variant=classical_latent fold=2
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f3_s7 data=CHSZ variant=classical_latent fold=3
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f4_s7 data=CHSZ variant=classical_latent fold=4
+AB_EXIT screen=ab_CHSZ_classical_latent_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f3_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f5_s7 data=CHSZ variant=classical_latent fold=5
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f6_s7 data=CHSZ variant=classical_latent fold=6
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f7_s7 data=CHSZ variant=classical_latent fold=7
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f8_s7 data=CHSZ variant=classical_latent fold=8
+AB_EXIT screen=ab_CHSZ_classical_latent_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f8_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f7_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f9_s7 data=CHSZ variant=classical_latent fold=9
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f10_s7 data=CHSZ variant=classical_latent fold=10
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f11_s7 data=CHSZ variant=classical_latent fold=11
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f12_s7 data=CHSZ variant=classical_latent fold=12
+AB_EXIT screen=ab_CHSZ_classical_latent_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f12_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f9_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f13_s7 data=CHSZ variant=classical_latent fold=13
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f14_s7 data=CHSZ variant=classical_latent fold=14
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f15_s7 data=CHSZ variant=classical_latent fold=15
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f16_s7 data=CHSZ variant=classical_latent fold=16
+AB_EXIT screen=ab_CHSZ_classical_latent_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f15_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f13_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f17_s7 data=CHSZ variant=classical_latent fold=17
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f18_s7 data=CHSZ variant=classical_latent fold=18
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f19_s7 data=CHSZ variant=classical_latent fold=19
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f20_s7 data=CHSZ variant=classical_latent fold=20
+AB_EXIT screen=ab_CHSZ_classical_latent_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f18_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f19_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f20_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f21_s7 data=CHSZ variant=classical_latent fold=21
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f22_s7 data=CHSZ variant=classical_latent fold=22
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f23_s7 data=CHSZ variant=classical_latent fold=23
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f24_s7 data=CHSZ variant=classical_latent fold=24
+AB_EXIT screen=ab_CHSZ_classical_latent_f22_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f21_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f25_s7 data=CHSZ variant=classical_latent fold=25
+AB_LAUNCH screen=ab_CHSZ_classical_latent_f26_s7 data=CHSZ variant=classical_latent fold=26
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f0_s7 data=CHSZ variant=no_entanglement fold=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f1_s7 data=CHSZ variant=no_entanglement fold=1
+AB_EXIT screen=ab_CHSZ_classical_latent_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_classical_latent_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f2_s7 data=CHSZ variant=no_entanglement fold=2
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f3_s7 data=CHSZ variant=no_entanglement fold=3
+AB_EXIT screen=ab_CHSZ_no_entanglement_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f0_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f4_s7 data=CHSZ variant=no_entanglement fold=4
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f5_s7 data=CHSZ variant=no_entanglement fold=5
+AB_EXIT screen=ab_CHSZ_no_entanglement_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f6_s7 data=CHSZ variant=no_entanglement fold=6
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f7_s7 data=CHSZ variant=no_entanglement fold=7
+AB_EXIT screen=ab_CHSZ_no_entanglement_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f8_s7 data=CHSZ variant=no_entanglement fold=8
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f9_s7 data=CHSZ variant=no_entanglement fold=9
+AB_EXIT screen=ab_CHSZ_no_entanglement_f7_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f6_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f10_s7 data=CHSZ variant=no_entanglement fold=10
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f11_s7 data=CHSZ variant=no_entanglement fold=11
+AB_EXIT screen=ab_CHSZ_no_entanglement_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f8_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f12_s7 data=CHSZ variant=no_entanglement fold=12
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f13_s7 data=CHSZ variant=no_entanglement fold=13
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f14_s7 data=CHSZ variant=no_entanglement fold=14
+AB_EXIT screen=ab_CHSZ_no_entanglement_f11_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f15_s7 data=CHSZ variant=no_entanglement fold=15
+AB_EXIT screen=ab_CHSZ_no_entanglement_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f12_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f16_s7 data=CHSZ variant=no_entanglement fold=16
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f17_s7 data=CHSZ variant=no_entanglement fold=17
+AB_EXIT screen=ab_CHSZ_no_entanglement_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f18_s7 data=CHSZ variant=no_entanglement fold=18
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f19_s7 data=CHSZ variant=no_entanglement fold=19
+AB_EXIT screen=ab_CHSZ_no_entanglement_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f16_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f20_s7 data=CHSZ variant=no_entanglement fold=20
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f21_s7 data=CHSZ variant=no_entanglement fold=21
+AB_EXIT screen=ab_CHSZ_no_entanglement_f19_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f18_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f22_s7 data=CHSZ variant=no_entanglement fold=22
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f23_s7 data=CHSZ variant=no_entanglement fold=23
+AB_EXIT screen=ab_CHSZ_no_entanglement_f20_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f21_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f24_s7 data=CHSZ variant=no_entanglement fold=24
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f25_s7 data=CHSZ variant=no_entanglement fold=25
+AB_EXIT screen=ab_CHSZ_no_entanglement_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_entanglement_f26_s7 data=CHSZ variant=no_entanglement fold=26
+AB_EXIT screen=ab_CHSZ_no_entanglement_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f24_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f0_s7 data=CHSZ variant=no_reupload fold=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f1_s7 data=CHSZ variant=no_reupload fold=1
+AB_EXIT screen=ab_CHSZ_no_entanglement_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_entanglement_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f2_s7 data=CHSZ variant=no_reupload fold=2
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f3_s7 data=CHSZ variant=no_reupload fold=3
+AB_EXIT screen=ab_CHSZ_no_reupload_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f0_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f4_s7 data=CHSZ variant=no_reupload fold=4
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f5_s7 data=CHSZ variant=no_reupload fold=5
+AB_EXIT screen=ab_CHSZ_no_reupload_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f6_s7 data=CHSZ variant=no_reupload fold=6
+AB_EXIT screen=ab_CHSZ_no_reupload_f2_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f7_s7 data=CHSZ variant=no_reupload fold=7
+AB_EXIT screen=ab_CHSZ_no_reupload_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f8_s7 data=CHSZ variant=no_reupload fold=8
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f9_s7 data=CHSZ variant=no_reupload fold=9
+AB_EXIT screen=ab_CHSZ_no_reupload_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f7_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f10_s7 data=CHSZ variant=no_reupload fold=10
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f11_s7 data=CHSZ variant=no_reupload fold=11
+AB_EXIT screen=ab_CHSZ_no_reupload_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f8_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f10_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f12_s7 data=CHSZ variant=no_reupload fold=12
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f13_s7 data=CHSZ variant=no_reupload fold=13
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f14_s7 data=CHSZ variant=no_reupload fold=14
+AB_EXIT screen=ab_CHSZ_no_reupload_f12_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f11_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f15_s7 data=CHSZ variant=no_reupload fold=15
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f16_s7 data=CHSZ variant=no_reupload fold=16
+AB_EXIT screen=ab_CHSZ_no_reupload_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f13_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f17_s7 data=CHSZ variant=no_reupload fold=17
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f18_s7 data=CHSZ variant=no_reupload fold=18
+AB_EXIT screen=ab_CHSZ_no_reupload_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f19_s7 data=CHSZ variant=no_reupload fold=19
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f20_s7 data=CHSZ variant=no_reupload fold=20
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f21_s7 data=CHSZ variant=no_reupload fold=21
+AB_EXIT screen=ab_CHSZ_no_reupload_f18_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f19_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f22_s7 data=CHSZ variant=no_reupload fold=22
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f23_s7 data=CHSZ variant=no_reupload fold=23
+AB_EXIT screen=ab_CHSZ_no_reupload_f20_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f21_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f24_s7 data=CHSZ variant=no_reupload fold=24
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f25_s7 data=CHSZ variant=no_reupload fold=25
+AB_EXIT screen=ab_CHSZ_no_reupload_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_reupload_f26_s7 data=CHSZ variant=no_reupload fold=26
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f0_s7 data=CHSZ variant=uniform_channel_pool fold=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f0_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_reupload_f25_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f1_s7 data=CHSZ variant=uniform_channel_pool fold=1
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f2_s7 data=CHSZ variant=uniform_channel_pool fold=2
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f3_s7 data=CHSZ variant=uniform_channel_pool fold=3
+AB_EXIT screen=ab_CHSZ_no_reupload_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f4_s7 data=CHSZ variant=uniform_channel_pool fold=4
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f1_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f5_s7 data=CHSZ variant=uniform_channel_pool fold=5
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f6_s7 data=CHSZ variant=uniform_channel_pool fold=6
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f4_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f7_s7 data=CHSZ variant=uniform_channel_pool fold=7
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f8_s7 data=CHSZ variant=uniform_channel_pool fold=8
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f7_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f8_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f9_s7 data=CHSZ variant=uniform_channel_pool fold=9
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f10_s7 data=CHSZ variant=uniform_channel_pool fold=10
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f11_s7 data=CHSZ variant=uniform_channel_pool fold=11
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f12_s7 data=CHSZ variant=uniform_channel_pool fold=12
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f10_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f13_s7 data=CHSZ variant=uniform_channel_pool fold=13
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f14_s7 data=CHSZ variant=uniform_channel_pool fold=14
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f12_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f15_s7 data=CHSZ variant=uniform_channel_pool fold=15
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f16_s7 data=CHSZ variant=uniform_channel_pool fold=16
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f17_s7 data=CHSZ variant=uniform_channel_pool fold=17
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f14_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f18_s7 data=CHSZ variant=uniform_channel_pool fold=18
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f16_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f19_s7 data=CHSZ variant=uniform_channel_pool fold=19
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f20_s7 data=CHSZ variant=uniform_channel_pool fold=20
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f15_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f19_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f21_s7 data=CHSZ variant=uniform_channel_pool fold=21
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f22_s7 data=CHSZ variant=uniform_channel_pool fold=22
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f20_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f18_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f23_s7 data=CHSZ variant=uniform_channel_pool fold=23
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f24_s7 data=CHSZ variant=uniform_channel_pool fold=24
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f21_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f25_s7 data=CHSZ variant=uniform_channel_pool fold=25
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_uniform_channel_pool_f26_s7 data=CHSZ variant=uniform_channel_pool fold=26
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f24_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f0_s7 data=CHSZ variant=no_bilstm fold=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f1_s7 data=CHSZ variant=no_bilstm fold=1
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f26_s7 code=0
+AB_EXIT screen=ab_CHSZ_uniform_channel_pool_f25_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f2_s7 data=CHSZ variant=no_bilstm fold=2
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f3_s7 data=CHSZ variant=no_bilstm fold=3
+AB_EXIT screen=ab_CHSZ_no_bilstm_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f0_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f4_s7 data=CHSZ variant=no_bilstm fold=4
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f5_s7 data=CHSZ variant=no_bilstm fold=5
+AB_EXIT screen=ab_CHSZ_no_bilstm_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f6_s7 data=CHSZ variant=no_bilstm fold=6
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f7_s7 data=CHSZ variant=no_bilstm fold=7
+AB_EXIT screen=ab_CHSZ_no_bilstm_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f8_s7 data=CHSZ variant=no_bilstm fold=8
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f9_s7 data=CHSZ variant=no_bilstm fold=9
+AB_EXIT screen=ab_CHSZ_no_bilstm_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f7_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f10_s7 data=CHSZ variant=no_bilstm fold=10
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f11_s7 data=CHSZ variant=no_bilstm fold=11
+AB_EXIT screen=ab_CHSZ_no_bilstm_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f8_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f12_s7 data=CHSZ variant=no_bilstm fold=12
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f13_s7 data=CHSZ variant=no_bilstm fold=13
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f14_s7 data=CHSZ variant=no_bilstm fold=14
+AB_EXIT screen=ab_CHSZ_no_bilstm_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f12_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f15_s7 data=CHSZ variant=no_bilstm fold=15
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f16_s7 data=CHSZ variant=no_bilstm fold=16
+AB_EXIT screen=ab_CHSZ_no_bilstm_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f14_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f17_s7 data=CHSZ variant=no_bilstm fold=17
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f18_s7 data=CHSZ variant=no_bilstm fold=18
+AB_EXIT screen=ab_CHSZ_no_bilstm_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f19_s7 data=CHSZ variant=no_bilstm fold=19
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f20_s7 data=CHSZ variant=no_bilstm fold=20
+AB_EXIT screen=ab_CHSZ_no_bilstm_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f18_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f21_s7 data=CHSZ variant=no_bilstm fold=21
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f22_s7 data=CHSZ variant=no_bilstm fold=22
+AB_STRICT_START seed=7 epochs=50 batch=512 max=8 workers=0 target_selected=false
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=21
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=22
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=23
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=24
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=25
+AB_SKIP_COMPLETE data=CHSZ variant=full fold=26
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=21
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=22
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=23
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=24
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=25
+AB_SKIP_COMPLETE data=CHSZ variant=classical_latent fold=26
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=21
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=22
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=23
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=24
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=25
+AB_SKIP_COMPLETE data=CHSZ variant=no_entanglement fold=26
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=21
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=22
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=23
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=24
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=25
+AB_SKIP_COMPLETE data=CHSZ variant=no_reupload fold=26
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=21
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=22
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=23
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=24
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=25
+AB_SKIP_COMPLETE data=CHSZ variant=uniform_channel_pool fold=26
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=0
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=1
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=2
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=3
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=4
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=5
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=6
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=7
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=8
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=9
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=10
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=11
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=12
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=13
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=14
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=15
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=16
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=17
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=18
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=19
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=20
+AB_SKIP_COMPLETE data=CHSZ variant=no_bilstm fold=22
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f21_s7 data=CHSZ variant=no_bilstm fold=21
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f23_s7 data=CHSZ variant=no_bilstm fold=23
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f24_s7 data=CHSZ variant=no_bilstm fold=24
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f25_s7 data=CHSZ variant=no_bilstm fold=25
+AB_LAUNCH screen=ab_CHSZ_no_bilstm_f26_s7 data=CHSZ variant=no_bilstm fold=26
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f0_s7 data=CHSZ variant=linear_classifier fold=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f1_s7 data=CHSZ variant=linear_classifier fold=1
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f2_s7 data=CHSZ variant=linear_classifier fold=2
+AB_EXIT screen=ab_CHSZ_no_bilstm_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f24_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f3_s7 data=CHSZ variant=linear_classifier fold=3
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f4_s7 data=CHSZ variant=linear_classifier fold=4
+AB_EXIT screen=ab_CHSZ_no_bilstm_f21_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f5_s7 data=CHSZ variant=linear_classifier fold=5
+AB_EXIT screen=ab_CHSZ_linear_classifier_f0_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f6_s7 data=CHSZ variant=linear_classifier fold=6
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f7_s7 data=CHSZ variant=linear_classifier fold=7
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f8_s7 data=CHSZ variant=linear_classifier fold=8
+AB_EXIT screen=ab_CHSZ_linear_classifier_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_bilstm_f25_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f9_s7 data=CHSZ variant=linear_classifier fold=9
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f10_s7 data=CHSZ variant=linear_classifier fold=10
+AB_EXIT screen=ab_CHSZ_linear_classifier_f4_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f11_s7 data=CHSZ variant=linear_classifier fold=11
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f12_s7 data=CHSZ variant=linear_classifier fold=12
+AB_EXIT screen=ab_CHSZ_linear_classifier_f5_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f13_s7 data=CHSZ variant=linear_classifier fold=13
+AB_EXIT screen=ab_CHSZ_linear_classifier_f7_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f14_s7 data=CHSZ variant=linear_classifier fold=14
+AB_EXIT screen=ab_CHSZ_linear_classifier_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f8_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f6_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f15_s7 data=CHSZ variant=linear_classifier fold=15
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f16_s7 data=CHSZ variant=linear_classifier fold=16
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f17_s7 data=CHSZ variant=linear_classifier fold=17
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f18_s7 data=CHSZ variant=linear_classifier fold=18
+AB_EXIT screen=ab_CHSZ_linear_classifier_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f12_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f19_s7 data=CHSZ variant=linear_classifier fold=19
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f20_s7 data=CHSZ variant=linear_classifier fold=20
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f21_s7 data=CHSZ variant=linear_classifier fold=21
+AB_EXIT screen=ab_CHSZ_linear_classifier_f14_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f22_s7 data=CHSZ variant=linear_classifier fold=22
+AB_EXIT screen=ab_CHSZ_linear_classifier_f17_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f23_s7 data=CHSZ variant=linear_classifier fold=23
+AB_EXIT screen=ab_CHSZ_linear_classifier_f15_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f16_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f24_s7 data=CHSZ variant=linear_classifier fold=24
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f25_s7 data=CHSZ variant=linear_classifier fold=25
+AB_EXIT screen=ab_CHSZ_linear_classifier_f19_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f18_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_linear_classifier_f26_s7 data=CHSZ variant=linear_classifier fold=26
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f0_s7 data=CHSZ variant=no_spectral fold=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f21_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f20_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f1_s7 data=CHSZ variant=no_spectral fold=1
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f2_s7 data=CHSZ variant=no_spectral fold=2
+AB_EXIT screen=ab_CHSZ_linear_classifier_f22_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f0_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f3_s7 data=CHSZ variant=no_spectral fold=3
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f4_s7 data=CHSZ variant=no_spectral fold=4
+AB_EXIT screen=ab_CHSZ_linear_classifier_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f2_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f23_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f5_s7 data=CHSZ variant=no_spectral fold=5
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f6_s7 data=CHSZ variant=no_spectral fold=6
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f7_s7 data=CHSZ variant=no_spectral fold=7
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f8_s7 data=CHSZ variant=no_spectral fold=8
+AB_EXIT screen=ab_CHSZ_no_spectral_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_linear_classifier_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f9_s7 data=CHSZ variant=no_spectral fold=9
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f10_s7 data=CHSZ variant=no_spectral fold=10
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f11_s7 data=CHSZ variant=no_spectral fold=11
+AB_EXIT screen=ab_CHSZ_no_spectral_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f7_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f4_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f3_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f12_s7 data=CHSZ variant=no_spectral fold=12
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f13_s7 data=CHSZ variant=no_spectral fold=13
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f14_s7 data=CHSZ variant=no_spectral fold=14
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f15_s7 data=CHSZ variant=no_spectral fold=15
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f16_s7 data=CHSZ variant=no_spectral fold=16
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f17_s7 data=CHSZ variant=no_spectral fold=17
+AB_EXIT screen=ab_CHSZ_no_spectral_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f8_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f12_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f18_s7 data=CHSZ variant=no_spectral fold=18
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f19_s7 data=CHSZ variant=no_spectral fold=19
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f20_s7 data=CHSZ variant=no_spectral fold=20
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f21_s7 data=CHSZ variant=no_spectral fold=21
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f22_s7 data=CHSZ variant=no_spectral fold=22
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f23_s7 data=CHSZ variant=no_spectral fold=23
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f24_s7 data=CHSZ variant=no_spectral fold=24
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f25_s7 data=CHSZ variant=no_spectral fold=25
+AB_EXIT screen=ab_CHSZ_no_spectral_f21_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f19_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_spectral_f26_s7 data=CHSZ variant=no_spectral fold=26
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f0_s7 data=CHSZ variant=no_hjorth fold=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f22_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f18_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f1_s7 data=CHSZ variant=no_hjorth fold=1
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f2_s7 data=CHSZ variant=no_hjorth fold=2
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f3_s7 data=CHSZ variant=no_hjorth fold=3
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f4_s7 data=CHSZ variant=no_hjorth fold=4
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f5_s7 data=CHSZ variant=no_hjorth fold=5
+AB_EXIT screen=ab_CHSZ_no_spectral_f26_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_spectral_f20_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f0_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f2_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f6_s7 data=CHSZ variant=no_hjorth fold=6
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f7_s7 data=CHSZ variant=no_hjorth fold=7
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f8_s7 data=CHSZ variant=no_hjorth fold=8
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f9_s7 data=CHSZ variant=no_hjorth fold=9
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f10_s7 data=CHSZ variant=no_hjorth fold=10
+AB_EXIT screen=ab_CHSZ_no_hjorth_f3_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f5_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f11_s7 data=CHSZ variant=no_hjorth fold=11
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f12_s7 data=CHSZ variant=no_hjorth fold=12
+AB_EXIT screen=ab_CHSZ_no_hjorth_f4_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f6_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f7_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f9_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f13_s7 data=CHSZ variant=no_hjorth fold=13
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f14_s7 data=CHSZ variant=no_hjorth fold=14
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f15_s7 data=CHSZ variant=no_hjorth fold=15
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f16_s7 data=CHSZ variant=no_hjorth fold=16
+AB_EXIT screen=ab_CHSZ_no_hjorth_f10_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f11_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f12_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f8_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f17_s7 data=CHSZ variant=no_hjorth fold=17
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f18_s7 data=CHSZ variant=no_hjorth fold=18
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f19_s7 data=CHSZ variant=no_hjorth fold=19
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f20_s7 data=CHSZ variant=no_hjorth fold=20
+AB_EXIT screen=ab_CHSZ_no_hjorth_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f14_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f15_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f17_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f21_s7 data=CHSZ variant=no_hjorth fold=21
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f22_s7 data=CHSZ variant=no_hjorth fold=22
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f23_s7 data=CHSZ variant=no_hjorth fold=23
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f24_s7 data=CHSZ variant=no_hjorth fold=24
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f25_s7 data=CHSZ variant=no_hjorth fold=25
+AB_EXIT screen=ab_CHSZ_no_hjorth_f19_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f20_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_hjorth_f26_s7 data=CHSZ variant=no_hjorth fold=26
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f0_s7 data=CHSZ variant=no_connectivity fold=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f21_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f18_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f23_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f1_s7 data=CHSZ variant=no_connectivity fold=1
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f2_s7 data=CHSZ variant=no_connectivity fold=2
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f3_s7 data=CHSZ variant=no_connectivity fold=3
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f4_s7 data=CHSZ variant=no_connectivity fold=4
+AB_EXIT screen=ab_CHSZ_no_hjorth_f25_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f5_s7 data=CHSZ variant=no_connectivity fold=5
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f6_s7 data=CHSZ variant=no_connectivity fold=6
+AB_EXIT screen=ab_CHSZ_no_connectivity_f0_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_hjorth_f26_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f7_s7 data=CHSZ variant=no_connectivity fold=7
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f8_s7 data=CHSZ variant=no_connectivity fold=8
+AB_EXIT screen=ab_CHSZ_no_connectivity_f2_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f9_s7 data=CHSZ variant=no_connectivity fold=9
+AB_EXIT screen=ab_CHSZ_no_connectivity_f1_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f4_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f10_s7 data=CHSZ variant=no_connectivity fold=10
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f11_s7 data=CHSZ variant=no_connectivity fold=11
+AB_EXIT screen=ab_CHSZ_no_connectivity_f3_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f5_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f8_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f12_s7 data=CHSZ variant=no_connectivity fold=12
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f13_s7 data=CHSZ variant=no_connectivity fold=13
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f14_s7 data=CHSZ variant=no_connectivity fold=14
+AB_EXIT screen=ab_CHSZ_no_connectivity_f9_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f6_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f15_s7 data=CHSZ variant=no_connectivity fold=15
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f16_s7 data=CHSZ variant=no_connectivity fold=16
+AB_EXIT screen=ab_CHSZ_no_connectivity_f7_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f17_s7 data=CHSZ variant=no_connectivity fold=17
+AB_EXIT screen=ab_CHSZ_no_connectivity_f11_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f18_s7 data=CHSZ variant=no_connectivity fold=18
+AB_EXIT screen=ab_CHSZ_no_connectivity_f16_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f13_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f10_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f19_s7 data=CHSZ variant=no_connectivity fold=19
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f20_s7 data=CHSZ variant=no_connectivity fold=20
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f21_s7 data=CHSZ variant=no_connectivity fold=21
+AB_EXIT screen=ab_CHSZ_no_connectivity_f12_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f14_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f22_s7 data=CHSZ variant=no_connectivity fold=22
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f23_s7 data=CHSZ variant=no_connectivity fold=23
+AB_EXIT screen=ab_CHSZ_no_connectivity_f17_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f15_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f24_s7 data=CHSZ variant=no_connectivity fold=24
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f25_s7 data=CHSZ variant=no_connectivity fold=25
+AB_EXIT screen=ab_CHSZ_no_connectivity_f18_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f19_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f21_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f22_s7 code=0
+AB_LAUNCH screen=ab_CHSZ_no_connectivity_f26_s7 data=CHSZ variant=no_connectivity fold=26
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f0_s7 data=Sleep-EDF-20 variant=full fold=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f1_s7 data=Sleep-EDF-20 variant=full fold=1
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f2_s7 data=Sleep-EDF-20 variant=full fold=2
+AB_EXIT screen=ab_CHSZ_no_connectivity_f24_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f20_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f3_s7 data=Sleep-EDF-20 variant=full fold=3
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f4_s7 data=Sleep-EDF-20 variant=full fold=4
+AB_EXIT screen=ab_CHSZ_no_connectivity_f23_s7 code=0
+AB_EXIT screen=ab_CHSZ_no_connectivity_f25_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f5_s7 data=Sleep-EDF-20 variant=full fold=5
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f6_s7 data=Sleep-EDF-20 variant=full fold=6
+AB_EXIT screen=ab_CHSZ_no_connectivity_f26_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f7_s7 data=Sleep-EDF-20 variant=full fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_full_f0_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f2_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f8_s7 data=Sleep-EDF-20 variant=full fold=8
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f9_s7 data=Sleep-EDF-20 variant=full fold=9
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f10_s7 data=Sleep-EDF-20 variant=full fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_full_f4_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f11_s7 data=Sleep-EDF-20 variant=full fold=11
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f12_s7 data=Sleep-EDF-20 variant=full fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_full_f6_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f13_s7 data=Sleep-EDF-20 variant=full fold=13
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f14_s7 data=Sleep-EDF-20 variant=full fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_full_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f15_s7 data=Sleep-EDF-20 variant=full fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_full_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f16_s7 data=Sleep-EDF-20 variant=full fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_full_f8_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f17_s7 data=Sleep-EDF-20 variant=full fold=17
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f18_s7 data=Sleep-EDF-20 variant=full fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_full_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_full_f19_s7 data=Sleep-EDF-20 variant=full fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_full_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f0_s7 data=Sleep-EDF-20 variant=classical_latent fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f1_s7 data=Sleep-EDF-20 variant=classical_latent fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_full_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f2_s7 data=Sleep-EDF-20 variant=classical_latent fold=2
+AB_EXIT screen=ab_Sleep_EDF_20_full_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f3_s7 data=Sleep-EDF-20 variant=classical_latent fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f4_s7 data=Sleep-EDF-20 variant=classical_latent fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f0_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f5_s7 data=Sleep-EDF-20 variant=classical_latent fold=5
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f6_s7 data=Sleep-EDF-20 variant=classical_latent fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f7_s7 data=Sleep-EDF-20 variant=classical_latent fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_full_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f8_s7 data=Sleep-EDF-20 variant=classical_latent fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_full_f17_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_full_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f9_s7 data=Sleep-EDF-20 variant=classical_latent fold=9
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f10_s7 data=Sleep-EDF-20 variant=classical_latent fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_full_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f11_s7 data=Sleep-EDF-20 variant=classical_latent fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f12_s7 data=Sleep-EDF-20 variant=classical_latent fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f5_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f7_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f13_s7 data=Sleep-EDF-20 variant=classical_latent fold=13
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f14_s7 data=Sleep-EDF-20 variant=classical_latent fold=14
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f15_s7 data=Sleep-EDF-20 variant=classical_latent fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f16_s7 data=Sleep-EDF-20 variant=classical_latent fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f9_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f11_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f17_s7 data=Sleep-EDF-20 variant=classical_latent fold=17
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f18_s7 data=Sleep-EDF-20 variant=classical_latent fold=18
+AB_LAUNCH screen=ab_Sleep_EDF_20_classical_latent_f19_s7 data=Sleep-EDF-20 variant=classical_latent fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f0_s7 data=Sleep-EDF-20 variant=no_entanglement fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f15_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f13_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f1_s7 data=Sleep-EDF-20 variant=no_entanglement fold=1
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f2_s7 data=Sleep-EDF-20 variant=no_entanglement fold=2
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f3_s7 data=Sleep-EDF-20 variant=no_entanglement fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f4_s7 data=Sleep-EDF-20 variant=no_entanglement fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f17_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f5_s7 data=Sleep-EDF-20 variant=no_entanglement fold=5
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f6_s7 data=Sleep-EDF-20 variant=no_entanglement fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_classical_latent_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f7_s7 data=Sleep-EDF-20 variant=no_entanglement fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f8_s7 data=Sleep-EDF-20 variant=no_entanglement fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f1_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f9_s7 data=Sleep-EDF-20 variant=no_entanglement fold=9
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f10_s7 data=Sleep-EDF-20 variant=no_entanglement fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f3_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f11_s7 data=Sleep-EDF-20 variant=no_entanglement fold=11
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f12_s7 data=Sleep-EDF-20 variant=no_entanglement fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f5_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f13_s7 data=Sleep-EDF-20 variant=no_entanglement fold=13
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f14_s7 data=Sleep-EDF-20 variant=no_entanglement fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f15_s7 data=Sleep-EDF-20 variant=no_entanglement fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f16_s7 data=Sleep-EDF-20 variant=no_entanglement fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f17_s7 data=Sleep-EDF-20 variant=no_entanglement fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f9_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f18_s7 data=Sleep-EDF-20 variant=no_entanglement fold=18
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_entanglement_f19_s7 data=Sleep-EDF-20 variant=no_entanglement fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f0_s7 data=Sleep-EDF-20 variant=no_reupload fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f1_s7 data=Sleep-EDF-20 variant=no_reupload fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f13_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f2_s7 data=Sleep-EDF-20 variant=no_reupload fold=2
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f3_s7 data=Sleep-EDF-20 variant=no_reupload fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f4_s7 data=Sleep-EDF-20 variant=no_reupload fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f5_s7 data=Sleep-EDF-20 variant=no_reupload fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f6_s7 data=Sleep-EDF-20 variant=no_reupload fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f19_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_entanglement_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f7_s7 data=Sleep-EDF-20 variant=no_reupload fold=7
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f8_s7 data=Sleep-EDF-20 variant=no_reupload fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f9_s7 data=Sleep-EDF-20 variant=no_reupload fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f10_s7 data=Sleep-EDF-20 variant=no_reupload fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f11_s7 data=Sleep-EDF-20 variant=no_reupload fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f12_s7 data=Sleep-EDF-20 variant=no_reupload fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f13_s7 data=Sleep-EDF-20 variant=no_reupload fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f14_s7 data=Sleep-EDF-20 variant=no_reupload fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f15_s7 data=Sleep-EDF-20 variant=no_reupload fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f16_s7 data=Sleep-EDF-20 variant=no_reupload fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f17_s7 data=Sleep-EDF-20 variant=no_reupload fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f18_s7 data=Sleep-EDF-20 variant=no_reupload fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_reupload_f19_s7 data=Sleep-EDF-20 variant=no_reupload fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f0_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f1_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f14_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f2_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=2
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f3_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f4_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f19_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f5_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=5
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f6_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_reupload_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f7_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f8_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f9_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f10_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f4_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f11_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=11
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f12_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f5_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f13_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=13
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f14_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f15_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f16_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f17_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f18_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f12_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_uniform_channel_pool_f19_s7 data=Sleep-EDF-20 variant=uniform_channel_pool fold=19
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f0_s7 data=Sleep-EDF-20 variant=no_bilstm fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f1_s7 data=Sleep-EDF-20 variant=no_bilstm fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f13_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f2_s7 data=Sleep-EDF-20 variant=no_bilstm fold=2
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f3_s7 data=Sleep-EDF-20 variant=no_bilstm fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f4_s7 data=Sleep-EDF-20 variant=no_bilstm fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f5_s7 data=Sleep-EDF-20 variant=no_bilstm fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f6_s7 data=Sleep-EDF-20 variant=no_bilstm fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f7_s7 data=Sleep-EDF-20 variant=no_bilstm fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f1_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_uniform_channel_pool_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f8_s7 data=Sleep-EDF-20 variant=no_bilstm fold=8
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f9_s7 data=Sleep-EDF-20 variant=no_bilstm fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f3_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f10_s7 data=Sleep-EDF-20 variant=no_bilstm fold=10
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f11_s7 data=Sleep-EDF-20 variant=no_bilstm fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f12_s7 data=Sleep-EDF-20 variant=no_bilstm fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f13_s7 data=Sleep-EDF-20 variant=no_bilstm fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f14_s7 data=Sleep-EDF-20 variant=no_bilstm fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f15_s7 data=Sleep-EDF-20 variant=no_bilstm fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f16_s7 data=Sleep-EDF-20 variant=no_bilstm fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f17_s7 data=Sleep-EDF-20 variant=no_bilstm fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f11_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f18_s7 data=Sleep-EDF-20 variant=no_bilstm fold=18
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_bilstm_f19_s7 data=Sleep-EDF-20 variant=no_bilstm fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f0_s7 data=Sleep-EDF-20 variant=linear_classifier fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f1_s7 data=Sleep-EDF-20 variant=linear_classifier fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f2_s7 data=Sleep-EDF-20 variant=linear_classifier fold=2
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f3_s7 data=Sleep-EDF-20 variant=linear_classifier fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f4_s7 data=Sleep-EDF-20 variant=linear_classifier fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f5_s7 data=Sleep-EDF-20 variant=linear_classifier fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f6_s7 data=Sleep-EDF-20 variant=linear_classifier fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_bilstm_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f7_s7 data=Sleep-EDF-20 variant=linear_classifier fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f8_s7 data=Sleep-EDF-20 variant=linear_classifier fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f9_s7 data=Sleep-EDF-20 variant=linear_classifier fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f10_s7 data=Sleep-EDF-20 variant=linear_classifier fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f11_s7 data=Sleep-EDF-20 variant=linear_classifier fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f12_s7 data=Sleep-EDF-20 variant=linear_classifier fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f13_s7 data=Sleep-EDF-20 variant=linear_classifier fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f14_s7 data=Sleep-EDF-20 variant=linear_classifier fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f15_s7 data=Sleep-EDF-20 variant=linear_classifier fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f16_s7 data=Sleep-EDF-20 variant=linear_classifier fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f17_s7 data=Sleep-EDF-20 variant=linear_classifier fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f18_s7 data=Sleep-EDF-20 variant=linear_classifier fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_linear_classifier_f19_s7 data=Sleep-EDF-20 variant=linear_classifier fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f0_s7 data=Sleep-EDF-20 variant=no_spectral fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f1_s7 data=Sleep-EDF-20 variant=no_spectral fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f2_s7 data=Sleep-EDF-20 variant=no_spectral fold=2
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f3_s7 data=Sleep-EDF-20 variant=no_spectral fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f4_s7 data=Sleep-EDF-20 variant=no_spectral fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f5_s7 data=Sleep-EDF-20 variant=no_spectral fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f6_s7 data=Sleep-EDF-20 variant=no_spectral fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_linear_classifier_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f7_s7 data=Sleep-EDF-20 variant=no_spectral fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f8_s7 data=Sleep-EDF-20 variant=no_spectral fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f1_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f9_s7 data=Sleep-EDF-20 variant=no_spectral fold=9
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f10_s7 data=Sleep-EDF-20 variant=no_spectral fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f11_s7 data=Sleep-EDF-20 variant=no_spectral fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f12_s7 data=Sleep-EDF-20 variant=no_spectral fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f13_s7 data=Sleep-EDF-20 variant=no_spectral fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f14_s7 data=Sleep-EDF-20 variant=no_spectral fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f15_s7 data=Sleep-EDF-20 variant=no_spectral fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f16_s7 data=Sleep-EDF-20 variant=no_spectral fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f17_s7 data=Sleep-EDF-20 variant=no_spectral fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f18_s7 data=Sleep-EDF-20 variant=no_spectral fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_spectral_f19_s7 data=Sleep-EDF-20 variant=no_spectral fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f0_s7 data=Sleep-EDF-20 variant=no_hjorth fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f1_s7 data=Sleep-EDF-20 variant=no_hjorth fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f2_s7 data=Sleep-EDF-20 variant=no_hjorth fold=2
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f3_s7 data=Sleep-EDF-20 variant=no_hjorth fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f4_s7 data=Sleep-EDF-20 variant=no_hjorth fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f5_s7 data=Sleep-EDF-20 variant=no_hjorth fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f6_s7 data=Sleep-EDF-20 variant=no_hjorth fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_spectral_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f7_s7 data=Sleep-EDF-20 variant=no_hjorth fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f8_s7 data=Sleep-EDF-20 variant=no_hjorth fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f9_s7 data=Sleep-EDF-20 variant=no_hjorth fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f10_s7 data=Sleep-EDF-20 variant=no_hjorth fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f11_s7 data=Sleep-EDF-20 variant=no_hjorth fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f12_s7 data=Sleep-EDF-20 variant=no_hjorth fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f13_s7 data=Sleep-EDF-20 variant=no_hjorth fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f14_s7 data=Sleep-EDF-20 variant=no_hjorth fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f15_s7 data=Sleep-EDF-20 variant=no_hjorth fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f16_s7 data=Sleep-EDF-20 variant=no_hjorth fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f17_s7 data=Sleep-EDF-20 variant=no_hjorth fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f18_s7 data=Sleep-EDF-20 variant=no_hjorth fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_hjorth_f19_s7 data=Sleep-EDF-20 variant=no_hjorth fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f12_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f0_s7 data=Sleep-EDF-20 variant=no_connectivity fold=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f13_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f1_s7 data=Sleep-EDF-20 variant=no_connectivity fold=1
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f14_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f2_s7 data=Sleep-EDF-20 variant=no_connectivity fold=2
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f15_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f3_s7 data=Sleep-EDF-20 variant=no_connectivity fold=3
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f16_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f4_s7 data=Sleep-EDF-20 variant=no_connectivity fold=4
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f17_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f5_s7 data=Sleep-EDF-20 variant=no_connectivity fold=5
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f18_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f6_s7 data=Sleep-EDF-20 variant=no_connectivity fold=6
+AB_EXIT screen=ab_Sleep_EDF_20_no_hjorth_f19_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f7_s7 data=Sleep-EDF-20 variant=no_connectivity fold=7
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f0_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f8_s7 data=Sleep-EDF-20 variant=no_connectivity fold=8
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f1_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f9_s7 data=Sleep-EDF-20 variant=no_connectivity fold=9
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f2_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f10_s7 data=Sleep-EDF-20 variant=no_connectivity fold=10
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f3_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f11_s7 data=Sleep-EDF-20 variant=no_connectivity fold=11
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f4_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f12_s7 data=Sleep-EDF-20 variant=no_connectivity fold=12
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f5_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f13_s7 data=Sleep-EDF-20 variant=no_connectivity fold=13
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f6_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f14_s7 data=Sleep-EDF-20 variant=no_connectivity fold=14
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f7_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f15_s7 data=Sleep-EDF-20 variant=no_connectivity fold=15
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f8_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f16_s7 data=Sleep-EDF-20 variant=no_connectivity fold=16
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f9_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f17_s7 data=Sleep-EDF-20 variant=no_connectivity fold=17
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f10_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f18_s7 data=Sleep-EDF-20 variant=no_connectivity fold=18
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f11_s7 code=0
+AB_LAUNCH screen=ab_Sleep_EDF_20_no_connectivity_f19_s7 data=Sleep-EDF-20 variant=no_connectivity fold=19
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f12_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f13_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f14_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f15_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f17_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f16_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f18_s7 code=0
+AB_EXIT screen=ab_Sleep_EDF_20_no_connectivity_f19_s7 code=0
+AB_STRICT_DONE
+     dataset              variant  complete_folds  expected_folds  accuracy_mean  accuracy_std  balanced_accuracy_mean  balanced_accuracy_std  macro_f1_mean  macro_f1_std  weighted_f1_mean  weighted_f1_std
+        CHSZ                 full              27              27          90.88          7.36                   80.54                  17.46          75.42         17.68             91.47             6.81
+        CHSZ     classical_latent              27              27          89.81         10.05                   79.12                  17.38          73.72         19.03             90.76             8.34
+        CHSZ      no_entanglement              27              27          89.85         10.14                   80.51                  17.35          74.94         18.65             90.83             8.12
+        CHSZ          no_reupload              27              27          90.61         10.28                   81.23                  18.48          75.79         19.12             91.38             9.15
+        CHSZ uniform_channel_pool              27              27          90.22          8.01                   80.06                  17.53          74.84         17.22             90.77             7.67
+        CHSZ            no_bilstm              27              27          87.80         10.80                   72.78                  16.83          69.59         16.87             87.93            10.69
+        CHSZ    linear_classifier              27              27          91.24          8.71                   81.17                  17.45          76.55         18.48             91.87             7.54
+        CHSZ          no_spectral              27              27          81.17         20.48                   55.19                  12.34          49.94         16.50             75.83            25.60
+        CHSZ            no_hjorth              27              27          90.74          8.87                   79.15                  17.28          75.39         18.09             91.21             8.10
+        CHSZ      no_connectivity              27              27          92.36          7.25                   81.67                  17.95          77.37         18.50             92.72             6.53
+Sleep-EDF-20                 full              20              20          91.08          3.21                   76.58                   5.04          73.06          5.43             91.53             2.78
+Sleep-EDF-20     classical_latent              20              20          90.67          3.87                   76.69                   5.77          73.04          6.59             91.32             3.33
+Sleep-EDF-20      no_entanglement              20              20          90.44          3.94                   75.41                   6.36          72.15          6.17             90.84             3.44
+Sleep-EDF-20          no_reupload              20              20          90.28          3.99                   75.34                   5.95          71.81          6.32             90.91             3.31
+Sleep-EDF-20 uniform_channel_pool              20              20          91.27          3.20                   76.43                   4.91          73.45          4.63             91.68             2.73
+Sleep-EDF-20            no_bilstm              20              20          89.37          4.10                   72.95                   5.27          69.65          5.63             89.84             3.48
+Sleep-EDF-20    linear_classifier              20              20          90.54          3.61                   74.08                   5.89          71.04          6.52             90.91             3.19
+Sleep-EDF-20          no_spectral              20              20          86.39          4.92                   65.46                   6.10          62.16          6.61             86.61             4.64
+Sleep-EDF-20            no_hjorth              20              20          90.55          4.18                   75.62                   5.76          72.35          6.04             91.07             3.60
+Sleep-EDF-20      no_connectivity              20              20          89.82          4.93                   74.89                   6.53          71.68          6.42             90.49             3.88
+{
+  "complete_configurations": 20,
+  "expected_configurations": 20,
+  "invalid": [],
+  "complete": true
+}
+/home/namphuongtran9196/.local/lib/python3.8/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "

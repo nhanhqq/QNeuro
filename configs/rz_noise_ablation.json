@@ -1,0 +1,8 @@
+{
+  "unit": "radians",
+  "values": [0.0, 0.05, 0.1, 0.25, 0.5, 1.0],
+  "clean_campaign_default": 0.1,
+  "encoding": "RY(alpha[layer,qubit] * angle[qubit])",
+  "encoding_scale_shape": [2, 4],
+  "encoding_scale_initial_value": 1.0
+}
